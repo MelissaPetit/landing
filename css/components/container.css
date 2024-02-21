@@ -1,0 +1,36 @@
+.container {
+  width: 700px;
+  margin: 0 auto
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-apply {
+  border: 1px solid antiquewhite;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+.btn-apply:hover {
+  background-color: #ccc2b4;
+  color: white;
+  opacity: 0.6;
+  font-weight: 300;
+}
+
+.container p {
+  text-align: center;
+  margin-bottom: 30px;
+}
